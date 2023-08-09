@@ -1,0 +1,5 @@
+name: LavaCatalystFlames
+version: '1.0'
+main: com.ashkiano.lavacatalystflames.LavaCatalystFlames
+api-version: '1.16'
+author: AshKiano
