@@ -15,6 +15,8 @@ public class LavaCatalystFlames extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+
+        Metrics metrics = new Metrics(this, 19540);
     }
 
     @EventHandler
