@@ -17,6 +17,9 @@ public class LavaCatalystFlames extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
 
         Metrics metrics = new Metrics(this, 19540);
+
+        this.getLogger().info("Thank you for using the LavaCatalystFlames plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
     }
 
     @EventHandler
