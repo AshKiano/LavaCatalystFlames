@@ -72,7 +72,7 @@ public class LavaCatalystFlames extends JavaPlugin implements Listener {
     private void checkForUpdates() {
         try {
             String pluginName = this.getDescription().getName();
-            URL url = new URL("https://www.ashkiano.com/version_check.php?plugin=" + pluginName);
+            URL url = new URL("https://plugins.ashkiano.com/version_check.php?plugin=" + pluginName);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
 
